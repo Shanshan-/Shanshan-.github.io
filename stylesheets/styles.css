@@ -64,7 +64,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:20px 0;
 }
 
 p, ul, ol, table, pre, dl {
@@ -151,6 +151,55 @@ dt {
 
 th {
   color:#444;
+}
+
+.top-pic {
+  width: 100%;
+  height: 250px;
+}
+
+.column {
+  float: left;
+  width: 29%;
+  padding: 0 10px;
+}
+
+.edu-col {
+  width: 95%;
+}
+
+.row {
+  margin: 0 -5px; /* used to fix spacing btwn columns*/
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  height: 40px;
+}
+
+.card p {
+  line-height: 40px;
+  /*display: inline-block;*/
+  vertical-align: middle;
+  /*margin: 0;*/
+}
+
+.edu-card {
+  height: auto;
+}
+
+.edu-card p {
+  line-height: 30px;
 }
 
 img {
@@ -298,6 +347,11 @@ footer {
 
   pre, code {
     word-wrap:normal;
+  }
+
+  .column {
+    width: 100%;
+    display: block;
   }
 }
 
