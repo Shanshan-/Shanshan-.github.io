@@ -18,12 +18,31 @@
         <div include-file="includes/header.html"></div>
       <section>
 
+        <img src="images/lake.jpg" class="top-pic">
+
         <h1>
-        <a id="about-me" class="anchor" href="#about-me" aria-hidden="true">
+        <a id="contact-me" class="anchor" href="#contact-me" aria-hidden="true">
             <span aria-hidden="true" class="octicon octicon-link"></span></a>
             Contact Me</h1>
 
-        <p>Insert content here.</p>
+        <p>Enter your information below, and I'll get back to you as soon as possible.  Thank you!</p>
+
+        <form>
+          <label for="ct-name">Name *</label>
+          <input type="text" id="ct-name" name="ct-name">
+          <label for="ct-email">Email *</label>
+          <input type="text" id="ct-email" name="ct-email"><br>
+          <label for="ct-subject">Subject</label>
+          <input type="text" id="ct-subject" name="ct-subject"><br>
+          <label for="ct-message">Message</label>
+          <input type="text" id="ct-message" name="ct-message"><br>
+          <input type="submit" value="Send"><br>
+          <form action=""></form>
+          <!--
+            TODO: To make functional, see link: https://www.123formbuilder.com/html-contact-form/
+            additional info: https://www.w3schools.com/html/html_forms.asp
+          -->
+        </form>
 
       </section>
         <div include-file="includes/footer.html"></div>
