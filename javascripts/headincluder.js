@@ -27,4 +27,10 @@ function includeHTML() {
   }
 }
 
-/* built from https://www.w3schools.com/howto/howto_html_include.asp */
+/* built from https://www.w3schools.com/howto/howto_html_include.asp
+    for future ref, there are also methods using php:
+        https://medium.com/@dtkahn/sharing-headers-and-footers-across-multi-page-websites-4396f9034669
+        https://www.quora.com/How-do-I-include-a-header-and-footer-file-in-every-HTML-page-we-are-designing
+        https://www.quora.com/How-can-I-include-a-header-to-my-HTML-from-another-HTML-file
+        https://css-tricks.com/the-simplest-ways-to-handle-html-includes/
+*/
