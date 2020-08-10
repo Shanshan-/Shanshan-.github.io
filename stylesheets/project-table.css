@@ -1,0 +1,21 @@
+.img-col {
+  width: 35%;
+}
+
+.details-col {
+  width: 50%;
+}
+
+.project-name, .project-lang {
+  margin: 10px 0 20px 0;
+}
+
+.project-desc {
+  margin: 20px 0;
+}
+
+td {
+  padding: 15px 10px;
+  margin: inherit;
+  background: #fff;
+}

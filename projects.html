@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="stylesheets/project-table.css">
     <meta name="viewport" content="width=device-width">
     <script src="javascripts/headincluder.js"></script>
     <!--[if lt IE 9]>
@@ -18,6 +19,8 @@
         <div include-file="includes/header.html"></div>
       <section>
 
+        <img src="images/scholargarden.jpg" class="top-pic">
+
         <h1>
         <a id="projects" class="anchor" href="#projects" aria-hidden="true">
             <span aria-hidden="true" class="octicon octicon-link"></span></a>
@@ -28,25 +31,39 @@
           from the "Contact" page, and I will get back to you.
         </p>
 
+        <!-- TODO: Figure out how to automate this whole table -->
         <table id="project-table">
-          <tr class="project" id="pix-program"><td>
-            <img src="images/Pixelated_Flowers.png" class="project-img">
-            <h2 class="project-name">Pixelization Program</h2>
-            <h4 class="project-lang">Written in C++</h4>
-            <p class="project-desc">
-              A program that accepts images of any resolution and outputs the same image in the art style of
-              pixel art, with a specified output resolution and limited palette.  This is accomplished using
-              an interleaved combination of the SLIC superpixel algorithm and the Mass Constrained
-              Deterministic Annealing algorithm.
-            </p>
-            <button onclick="window.open('https://github.com/Shanshan-/Pixelization', '_blank')"
-                    class="button project-button">GitHub Repo</button>
-            <!--<a class="button" target="_blank" href="https://github.com/Shanshan-/Pixelization">GitHub Repo</a>-->
+          <tr class="project" id="pix-program"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/Pixelated_Flowers.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Pixelization Program</h2>
+              <h4 class="project-lang">Written in C++</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                A program that accepts images of any resolution and outputs the same image in the art style of
+                pixel art, with a specified output resolution and limited palette.  This is accomplished using
+                an interleaved combination of the SLIC superpixel algorithm and the Mass Constrained
+                Deterministic Annealing algorithm.
+              </p>
+              <button onclick="window.open('https://github.com/Shanshan-/Pixelization', '_blank')"
+                      class="button project-button">GitHub Repo</button>
+              <!--<a class="button" target="_blank" href="https://github.com/Shanshan-/Pixelization">GitHub Repo</a>-->
+            </div>
           </td></tr>
-          <tr class="project" id="wcr-program"><td>
-            <img src="images/wcv_edited.png" class="project-img">
-            <h2 class="project-name">Web Comic Reader</h2>
-            <h4 class="project-lang">Written in Python</h4>
+          <tr class="project" id="wcr-program"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/wcv_edited.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Web Comic Reader</h2>
+              <h4 class="project-lang">Written in Python</h4>
+            </div>
+          </div>
+            <div class="row">
             <p class="project-desc">
               An application that takes a folder of webcomic pages and displays them in a viewer.  Also has
               scraping capabilities for offline viewing.
@@ -54,133 +71,231 @@
             <button onclick="window.open('https://github.com/Shanshan-/WebComicViewerPY', '_blank')"
                     class="button project-button">GitHub Repo</button>
           </td></tr>
-          <tr class="project" id="wolfiescript-project"><td>
-            <img src="images/SSeawolf_Script_Parse_Tree.jpg" class="project-img">
-            <h2 class="project-name">SSeawolf Script</h2>
-            <h4 class="project-lang">Written in ANTLR4, Python</h4>
-            <p class="project-desc">
-              Program written to interpret and compile a programming language known as SSeawolf Script.
-            </p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="wolfiescript-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/SSeawolf_Script_Parse_Tree.jpg" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">SSeawolf Script</h2>
+              <h4 class="project-lang">Written in ANTLR4, Python</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                Program written to interpret and compile a programming language known as SSeawolf Script.
+              </p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="pacman-search-project"><td>
-            <img src="images/pacman_edited.png" class="project-img">
-            <h2 class="project-name">Pac-Man Searchers</h2>
-            <h4 class="project-lang">Written in Python</h4>
-            <p class="project-desc">
-              Automated Pac-Man programs that allow Pac-Man to chase ghosts and eat pellets by following
-              various AI techniques including but not limited to Bayes' Nets, adversarial searches, and
-              graph based searches.
-            </p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="pacman-search-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/pacman_edited.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Pac-Man Searchers</h2>
+              <h4 class="project-lang">Written in Python</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                Automated Pac-Man programs that allow Pac-Man to chase ghosts and eat pellets by following
+                various AI techniques including but not limited to Bayes' Nets, adversarial searches, and
+                graph based searches.
+              </p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="cpu-project"><td>
-            <img src="images/top-sv_layout.png" class="project-img">
-            <h2 class="project-name">Computer Processing Unit</h2>
-            <h4 class="project-lang">Written in SystemVerilog</h4>
-            <p class="project-desc">
-              A processor in a HDL with 5+ stage pipelining, direct and set associated caches, branch
-              prediction abilities, and is capable of running simple assembly programs.
-            </p>
-            <button onclick="window.open('https://github.com/yeseullee/architecture', '_blank')"
-                    class="button project-button">GitHub Repo</button>
+          <tr class="project" id="cpu-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/top-sv_layout.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Computer Processing Unit</h2>
+              <h4 class="project-lang">Written in SystemVerilog</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                A processor in a HDL with 5+ stage pipelining, direct and set associated caches, branch
+                prediction abilities, and is capable of running simple assembly programs.
+              </p>
+              <button onclick="window.open('https://github.com/yeseullee/architecture', '_blank')"
+                      class="button project-button">GitHub Repo</button>
+            </div>
           </td></tr>
-          <tr class="project" id="iprogramming-project"><td>
-            <img src="images/logo(1).png" class="project-img">
-            <h2 class="project-name">I-Programming</h2>
-            <h4 class="project-lang">
+          <tr class="project" id="iprogramming-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/logo(1).png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">I-Programming</h2>
+              <h4 class="project-lang">
               Written in Java, HTML, CSS, Javascript, and SQL, using Bootstrap, Maven, and Spring MVC</h4>
-            <p class="project-desc">
-              A web application designed to teach users how to program, where they can also create and share courses.
-            </p>
-            <button class="button project-button">Private</button>
-            <!-- href='https://github.com/gangdihuang308/iprogramming-webapp' -->
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                A web application designed to teach users how to program, where they can also create and share courses.
+              </p>
+              <button class="button project-button" disabled>Private</button>
+              <!-- href='https://github.com/gangdihuang308/iprogramming-webapp' -->
+            </div>
           </td></tr>
-          <tr class="project" id="sniffer-project"><td>
-            <img src="images/Sniffer_Output.jpg" class="project-img">
-            <h2 class="project-name">Packet Sniffer</h2>
-            <h4 class="project-lang">Written in Python</h4>
-            <p class="project-desc">
-              This program captures network traffic, parses it to determine the packet format, and displays
-              it back in a user-friendly format.  It is also capable of searching the captured packets using
-              regular expressions, filtering out types of packets, and reconstructing DNS queries.
-            </p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="sniffer-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/Sniffer_Output.jpg" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Packet Sniffer</h2>
+              <h4 class="project-lang">Written in Python</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                This program captures network traffic, parses it to determine the packet format, and displays
+                it back in a user-friendly format.  It is also capable of searching the captured packets using
+                regular expressions, filtering out types of packets, and reconstructing DNS queries.
+              </p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="localization-project"><td>
-            <img src="images/localization.png" class="project-img">
-            <h2 class="project-name">Localization Using Radio Fingerprints</h2>
-            <h4 class="project-lang">Written in Python</h4>
-            <p class="project-desc">An application that is capable of determining the approximate location
-              of a variable number of radio towers in a grid given the fingerprint vectors of each cell in
-              the grid using a Gaussian Naive Bayes-based algorithm.</p>
-            <button onclick="window.open('https://github.com/Shanshan-/CSE570HW2', '_blank')"
-                    class="button project-button">GitHub Repo</button>
+          <tr class="project" id="localization-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/localization.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Localization Using Radio Fingerprints</h2>
+              <h4 class="project-lang">Written in Python</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">An application that is capable of determining the approximate location
+                of a variable number of radio towers in a grid given the fingerprint vectors of each cell in
+                the grid using a Gaussian Naive Bayes-based algorithm.</p>
+              <button onclick="window.open('https://github.com/Shanshan-/CSE570HW2', '_blank')"
+                      class="button project-button">GitHub Repo</button>
+            </div>
           </td></tr>
-          <tr class="project" id="linux-messenger-project"><td>
-            <img src="images/web_chat_app.png" class="project-img">
-            <h2 class="project-name">Web Messenger App</h2>
-            <h4 class="project-lang">Written in C, SQLite</h4>
-            <p class="project-desc">This consists of both a client and server program, and allows two
-              users to send messages to one another in real-time.  Users login with a username and
-              password, stored using a SQLite database on the server, and can then send messages to any
-              other user currently online.</p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="linux-messenger-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/web_chat_app.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Web Messenger App</h2>
+              <h4 class="project-lang">Written in C, SQLite</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">This consists of both a client and server program, and allows two
+                users to send messages to one another in real-time.  Users login with a username and
+                password, stored using a SQLite database on the server, and can then send messages to any
+                other user currently online.</p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="bash-project"><td>
-            <img src="images/shell.png" class="project-img">
-            <h2 class="project-name">Shell Program</h2>
-            <h4 class="project-lang">Written in C</h4>
-            <p class="project-desc">
-              A shell program that is written to mimic the Bash program in UNIX operating systems.
-            </p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="bash-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/shell.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Shell Program</h2>
+              <h4 class="project-lang">Written in C</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                A shell program that is written to mimic the Bash program in UNIX operating systems.
+              </p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="allocator-project"><td>
-            <img src="images/allocator.png" class="project-img">
-            <h2 class="project-name">Memory Allocator</h2>
-            <h4 class="project-lang">Written in C</h4>
-            <p class="project-desc">
-              A dynamic memory allocator written from scratch to manage a given chunk of memory.
-              This allocator uses an explicit freelist to manage allocations, and supports both first
-              and next block placement.
-            </p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="allocator-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/allocator.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Memory Allocator</h2>
+              <h4 class="project-lang">Written in C</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">
+                A dynamic memory allocator written from scratch to manage a given chunk of memory.
+                This allocator uses an explicit freelist to manage allocations, and supports both first
+                and next block placement.
+              </p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="lawn-game-project"><td>
-            <img src="images/lawn_mower.jpg" class="project-img">
-            <h2 class="project-name">Lawn Mower Game</h2>
-            <h4 class="project-lang">Written in MIPS Assembly</h4>
-            <p class="project-desc">This is an interactive game in where the user attempts to mow a lawn.</p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="lawn-game-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/lawn_mower.jpg" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Lawn Mower Game</h2>
+              <h4 class="project-lang">Written in MIPS Assembly</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">This is an interactive game in where the user attempts to mow a lawn.</p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="sudoku-project"><td>
-            <img src="images/sudoku.jpg" class="project-img">
-            <h2 class="project-name">Sudoku Solver</h2>
-            <h4 class="project-lang">Written in MIPS Assembly</h4>
-            <p class="project-desc">Recursively solves a sudoku puzzle, provided as a string input.</p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="sudoku-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/sudoku.jpg" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Sudoku Solver</h2>
+              <h4 class="project-lang">Written in MIPS Assembly</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">Recursively solves a sudoku puzzle, provided as a string input.</p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="wolfieball-project"><td>
-            <img src="images/AddNewPlayer.png" class="project-img">
-            <h2 class="project-name">WolfieBall Draft Kit Manager</h2>
-            <h4 class="project-lang">Written in Java, JavaFX</h4>
-            <p class="project-desc">A fantasy baseball team manager.</p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="wolfieball-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/AddNewPlayer.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">WolfieBall Draft Kit Manager</h2>
+              <h4 class="project-lang">Written in Java, JavaFX</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">A fantasy baseball team manager.</p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-          <tr class="project" id="site-builder-project"><td>
-            <img src="images/Site_SchedulePage.png" class="project-img">
-            <h2 class="project-name">Course Site Builder</h2>
-            <h4 class="project-lang">Written in Java, JavaFX</h4>
-            <p class="project-desc">A program to automate the process of recreating a course webpage.</p>
-            <button class="button project-button">Private</button>
+          <tr class="project" id="site-builder-project"><td><div class="row">
+            <div class="column img-col">
+              <img src="images/Site_SchedulePage.png" class="project-img">
+            </div>
+            <div class="column details-col">
+              <h2 class="project-name">Course Site Builder</h2>
+              <h4 class="project-lang">Written in Java, JavaFX</h4>
+            </div>
+          </div>
+            <div class="row">
+              <p class="project-desc">A program to automate the process of recreating a course webpage.</p>
+              <button class="button project-button" disabled>Private</button>
+            </div>
           </td></tr>
-<!--          <tr class="project" id=""><td>-->
-<!--            <img src="images/" class="project-img">-->
-<!--            <h2 class="project-name"></h2>-->
-<!--            <h4 class="project-lang">Written in </h4>-->
-<!--            <p class="project-desc"></p>-->
-<!--            <button onclick="window.open('', '_blank')"class="button project-button">Private</button>-->
+<!--          <tr class="project" id=""><td><div class="row">-->
+<!--            <div class="column img-col">-->
+<!--              <img src="images/" class="project-img">-->
+<!--            </div>-->
+<!--            <div class="column details-col">-->
+<!--              <h2 class="project-name"></h2>-->
+<!--              <h4 class="project-lang">Written in </h4>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--            <div class="row">-->
+<!--              <p class="project-desc"></p>-->
+<!--              <button onclick="window.open('', '_blank')"class="button project-button" disabled>GitHub Repo Private</button>-->
+<!--            </div>-->
 <!--          </td></tr>-->
         </table>
 
