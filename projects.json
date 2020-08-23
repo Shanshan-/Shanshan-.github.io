@@ -1,0 +1,18 @@
+{"projects":[
+  {
+    "projectid": "pix-program",
+    "imgsrc": "images/Pixelated_Flowers.png",
+    "name": "Pixelization Program",
+    "language": "C++",
+    "description": "A program that accepts images of any resolution and outputs the same image in the art style of pixel art, with a specified output resolution and limited palette.  This is accomplished using an interleaved combination of the SLIC superpixel algorithm and the Mass Constrained Deterministic Annealing algorithm.",
+    "github": "https://github.com/Shanshan-/Pixelization"
+  },
+  {
+    "projectid": "",
+    "imgsrc": "",
+    "name": "",
+    "language": "",
+    "description": "",
+    "github": ""
+  }
+]}
