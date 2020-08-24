@@ -8,11 +8,116 @@
     "github": "https://github.com/Shanshan-/Pixelization"
   },
   {
-    "projectid": "",
-    "imgsrc": "",
-    "name": "",
-    "language": "",
-    "description": "",
+    "projectid": "wcr-program",
+    "imgsrc": "images/wcv_edited.png",
+    "name": "Web Comic Reader",
+    "language": "Python",
+    "description": "An application that takes a folder of webcomic pages and displays them in a viewer.  Also has scraping capabilities for offline viewing.",
+    "github": "https://github.com/Shanshan-/WebComicViewerPY"
+  },
+  {
+    "projectid": "wolfiescript-project",
+    "imgsrc": "images/SSeawolf_Script_Parse_Tree.jpg",
+    "name": "SSeawolf Script",
+    "language": "ANTLR4, Python",
+    "description": "Program written to interpret and compile a programming language known as SSeawolf Script.",
+    "github": ""
+  },
+  {
+    "projectid": "pacman-search-project",
+    "imgsrc": "images/pacman_edited.png",
+    "name": "Pac-Man Searchers",
+    "language": "Python",
+    "description": "Automated Pac-Man programs that allow Pac-Man to chase ghosts and eat pellets by following various AI techniques including but not limited to Bayes' Nets, adversarial searches, and graph based searches.",
+    "github": ""
+  },
+  {
+    "projectid": "cpu-project",
+    "imgsrc": "images/top-sv_layout.png",
+    "name": "Computer Processing Unit",
+    "language": "SystemVerilog",
+    "description": "A processor in a HDL with 5+ stage pipelining, direct and set associated caches, branch prediction abilities, and is capable of running simple assembly programs.",
+    "github": "https://github.com/yeseullee/architecture"
+  },
+  {
+    "projectid": "iprogramming-project",
+    "imgsrc": "images/logo(1).png",
+    "name": "I-Programming",
+    "language": "Java, HTML, CSS, Javascript, and SQL, using Bootstrap, Maven, and Spring MVC",
+    "description": "A web application designed to teach users how to program, where they can also create and share courses.",
+    "github": "",
+    "notes": "https://github.com/gangdihuang308/iprogramming-webapp"
+  },
+  {
+    "projectid": "sniffer-project",
+    "imgsrc": "images/Sniffer_Output.jpg",
+    "name": "Packet Sniffer",
+    "language": "Python",
+    "description": "This program captures network traffic, parses it to determine the packet format, and displays it back in a user-friendly format.  It is also capable of searching the captured packets using regular expressions, filtering out types of packets, and reconstructing DNS queries.",
+    "github": ""
+  },
+  {
+    "projectid": "localization-project",
+    "imgsrc": "images/localization.png",
+    "name": "Localization Using Radio Fingerprints",
+    "language": "Python",
+    "description": "An application that is capable of determining the approximate location of a variable number of radio towers in a grid given the fingerprint vectors of each cell in the grid using a Gaussian Naive Bayes-based algorithm.",
+    "github": "https://github.com/Shanshan-/CSE570HW2"
+  },
+  {
+    "projectid": "linux-messenger-project",
+    "imgsrc": "images/web_chat_app.png",
+    "name": "Web Messenger App",
+    "language": "C, SQLite",
+    "description": "This consists of both a client and server program, and allows two users to send messages to one another in real-time.  Users login with a username and password, stored using a SQLite database on the server, and can then send messages to any other user currently online.",
+    "github": ""
+  },
+  {
+    "projectid": "bash-project",
+    "imgsrc": "images/shell.png",
+    "name": "Shell Program",
+    "language": "C",
+    "description": "A shell program that is written to mimic the Bash program in UNIX operating systems.",
+    "github": ""
+  },
+  {
+    "projectid": "allocator-project",
+    "imgsrc": "images/allocator.png",
+    "name": "Memory Allocator",
+    "language": "C",
+    "description": "A dynamic memory allocator written from scratch to manage a given chunk of memory.  This allocator uses an explicit freelist to manage allocations, and supports both first and next block placement.",
+    "github": ""
+  },
+  {
+    "projectid": "lawn-game-project",
+    "imgsrc": "images/lawn_mower.jpg",
+    "name": "Lawn Mower Game",
+    "language": "MIPS Assembly",
+    "description": "This is an interactive game in where the user attempts to mow a lawn.",
+    "github": ""
+  },
+  {
+    "projectid": "sudoku-project",
+    "imgsrc": "images/sudoku.jpg",
+    "name": "Sudoku Solver",
+    "language": "MIPS Assembly",
+    "description": "Recursively solves a sudoku puzzle, provided as a string input.",
+    "github": ""
+  },
+  {
+    "projectid": "wolfieball-project",
+    "imgsrc": "images/AddNewPlayer.png",
+    "name": "WolfieBall Draft Kit Manager",
+    "language": "Java, JavaFX",
+    "description": "A fantasy baseball team manager.",
+    "github": ""
+  },
+  {
+    "projectid": "site-builder-project",
+    "imgsrc": "images/Site_SchedulePage.png",
+    "name": "Course Site Builder",
+    "language": "Java, JavaFX",
+    "description": "A program to automate the process of recreating a course webpage.",
     "github": ""
   }
 ]}
