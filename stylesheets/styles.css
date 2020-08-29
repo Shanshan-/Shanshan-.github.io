@@ -185,6 +185,7 @@ th {
   background-color: #f1f1f1;
   margin: 10px 0;
   height: 40px;
+  border-radius: 3px;
 }
 
 .card p {
@@ -229,9 +230,15 @@ img {
     border-radius: 5px;
     opacity: 70%;
 }
+
 .top-button:hover {
     background-color: #DDF;
     color: #000;
+}
+
+.skill-header {
+    /*padding: 0 0 0 0;*/
+    text-align: center;
 }
 
 header {
@@ -321,7 +328,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
